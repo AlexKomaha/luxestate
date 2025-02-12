@@ -341,4 +341,23 @@ nav{
   .square{
     height: 140px;
   }
+  .cards{
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-row-gap: 10px;
+    justify-items: center;
+  }
+  .apart input[type=text]{
+    margin-top: 20px;
+    width: 130px;
+  }
+  .buttons-search{
+    flex-direction: column;
+    margin-left: 4%;
+  }
+  .all{
+    background: #fff;
+    margin-top: 10px;
+    margin-left: 0;
+  }
 }
