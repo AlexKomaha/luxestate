@@ -431,4 +431,16 @@ nav{
     margin-top: 10px;
     margin-left: 0;
   }
+  .steps-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .step-block{
+    margin-top: 20px;
+  }
+  .steps-text .steps h2{
+    margin-left: 5%;
+    margin-bottom: 15px;
+  }
 }
