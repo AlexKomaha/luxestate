@@ -475,4 +475,14 @@ nav{
     margin-left: 5%;
     margin-bottom: 15px;
   }
+  .services-container{
+    margin-top: 20px;
+    flex-direction: column;
+  }
+  .services-img-container{
+    width: 100%;
+  }
+  .serv-text{
+    width: 100%;
+  }
 }
