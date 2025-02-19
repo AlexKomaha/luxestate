@@ -548,4 +548,12 @@ nav{
   .serv-text{
     width: 100%;
   }
+  .agent-cards{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .agent-card{
+    margin-top: 10px;
+  }
 }
