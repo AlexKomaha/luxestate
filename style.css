@@ -404,6 +404,10 @@ nav{
   padding-bottom: 95px;
 }
 
+.agent-card img{
+  max-height: 420px;
+}
+
 
 @media screen and (max-width: 765px){
   .toggle{
