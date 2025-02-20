@@ -408,6 +408,74 @@ nav{
   max-height: 420px;
 }
 
+.add{
+  padding-bottom: 100px;
+  padding-top: 90px;
+}
+
+.add-line{
+  display: flex;
+}
+
+.location{
+  font-size: 18px;
+  padding: 30px 87px 35px 55px;
+  background: #ffcc01;
+  display: inline-block;
+}
+
+.location i{
+  margin-right: 30px;
+  font-size: 25px;
+  position: relative;
+  top: 7px;
+  color: #fff;
+}
+
+.location-melbourne{
+  position: relative;
+  left: 100px;
+  bottom: 50px;
+}
+
+.location-australia{
+  position: relative;
+  left: 260px;
+  bottom: 50px;
+}
+
+.add-line h3{
+  font-size: 25px;
+  margin-top: 75px;
+  margin-bottom: 40px;
+  margin-left: 130px;
+}
+
+.add-line p{
+  font-size: 13px;
+  line-height: 30px;
+  margin-left: 130px;
+}
+
+.add-line-right p{
+  margin-left: 0;
+  margin-right: 130px;
+}
+
+.add-line h3:last-of-type{
+  margin-top: 25px;
+}
+
+.show-more{
+  background: #1f373d;
+  font-size: 18px;
+  display: inline-block;
+  color: #fff;
+  margin-top: 60px;
+  margin-left: 130px;
+  padding: 30px 70px 30px 55px;
+}
+
 
 @media screen and (max-width: 765px){
   .toggle{
