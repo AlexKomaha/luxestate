@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japanese Flashcards</title>
+    <link rel="stylesheet" href="card.css">
+    <script defer src="card.js"></script>
+</head>
+<body>
+    <div class="flashcard-container">
+        <div class="flashcard" id="flashcard" onclick="flipCard()">
+            <div class="card-front">
+                <p class="hint">💡 Get a hint</p>
+                <p class="word">降ろす</p>
+            </div>
+            <div class="card-back">
+                <p class="translation">To lower, to unload</p>
+            </div>
+        </div>
+        <div class="navigation">
+            <button onclick="prevCard()">&#8592;</button>
+            <button onclick="nextCard()">&#8594;</button>
+        </div>
+    </div>
+</body>
+</html>
