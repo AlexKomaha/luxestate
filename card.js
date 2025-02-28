@@ -1,14 +1,15 @@
-let isFlipped = false;
+const card = document.querySelector('.card__inner');
+const frontText = document.querySelector('.card__face--front p');
 
-function flipCard() {
-    const card = document.getElementById('flashcard');
-    if (isFlipped) {
-        card.classList.remove('flipped');
-    } else {
-        card.classList.add('flipped');
-    }
-    isFlipped = !isFlipped;
-}
+card.addEventListener('click', function () {
+  card.classList.toggle('is-flipped');
+
+  if (card.classList.contains('is-flipped')) {
+    frontText.textContent = "To lower, to unload";
+  } else {
+    frontText.textContent = "降ろす";
+  }
+});
 
 function prevCard() {
     alert("Previous card functionality not implemented yet!");
